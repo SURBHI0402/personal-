@@ -1,0 +1,159 @@
+*{
+    padding: 5;
+    margin: 5mm ;
+}
+
+body{
+    color:rgb(0, 1, 44);
+    font-family: varela round;
+    
+   
+
+
+}
+
+img{
+border-radius: 90%;
+
+}
+
+p.one{
+padding-left: 10%;
+padding-right:10%;
+
+}
+.header{
+    padding-top: 20px;
+    border-radius: 10px;
+    color: rgb(1, 0, 49);
+}
+.s1{
+    background-color: #72ffe0;
+    color: rgb(46, 1, 1);
+    border-radius: 8px;
+
+}
+
+.description{
+    padding: 10px;
+}
+
+.icons i{
+    padding: 10px;
+
+}
+.icons a i{
+    color: #7fcc5e;
+}
+
+.navbar{
+    margin: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: black;
+    background-color: #b6ecf0;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links{
+    height: 100%;
+}
+
+.navbar-links ul{
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(19, 0, 71);
+    padding: 1rem;
+}
+
+.navbar-links li a:hover{
+    display: block;
+    text-decoration: none;
+    color: #c3f0fd;
+}
+
+.navbar-links li:hover{
+    background-color: rgb(10, 2, 80);
+    border-radius: 5px;
+}
+
+
+.toggle-button{
+    position: absolute;
+    top: .35rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    margin: .5px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+
+@media (max-width:200px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li{
+        text-align: center;
+    }
+    .navbar-links ul li a{
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+}
+
+button{
+size: 150mm;
+color: #ffd2d0
+;    background-color: #0d011d;
+border-radius: 10px;
+border-style: none;
+}
+
+button a{
+    color: rgb(255, 234, 234);
+    text-decoration: none;
+} 
